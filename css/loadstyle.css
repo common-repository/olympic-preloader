@@ -1,0 +1,97 @@
+#loader {
+  background:#222222 none repeat scroll 0 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top:0;
+  bottom:0;
+  z-index: 1000;
+}
+.inner-loader {
+  left: 46%;
+  margin: -100px 0 0 -100px;
+  position: absolute;
+  top: 45%;
+  width: 310px;
+}
+.olympic {
+  position: absolute;
+  border-width: 8px;
+border-style: solid;
+  border-radius: 50%;
+  -webkit-animation: rotate linear infinite;
+          animation: rotate linear infinite;
+}
+
+.olympic.one {
+   -webkit-animation-duration: 0.85s;
+          animation-duration: 0.85s;
+  height: 98px;
+  left: 0;
+  top: 0;
+  width: 100px;
+border-color:#0085C7;
+}
+
+.olympic.two {
+   -webkit-animation-duration: 0.95s;
+          animation-duration: 0.95s;
+  height: 98px;
+  left: 105px;
+  top: 0;
+  width: 100px;
+border-color:#000000;
+}
+
+.olympic.three {
+  -webkit-animation-duration: 1.05s;
+          animation-duration: 1.05s;
+  height: 98px;
+  left: 210px;
+  top: 0;
+  width: 100px;
+border-color:#DF0024;
+}
+
+.olympic.four {
+   -webkit-animation-duration: 1.05s;
+          animation-duration: 1.05s;
+  height: 98px;
+  left: 53px;
+  top: 50px;
+  width: 100px;
+border-color:#F4C300;
+}
+
+.olympic.five {
+    -webkit-animation-duration: 1.05s;
+          animation-duration: 1.05s;
+  height: 98px;
+  left: 158px;
+  top: 50px;
+  width: 100px;
+border-color:#009F3D;
+}
+
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+  to {
+    -webkit-transform: rotateZ(0deg);
+            transform: rotateZ(0deg);
+  }
+}
